@@ -1,0 +1,4 @@
+/*Do an horizontal flip-orig when you move the mouse over the flip-orig box container*/
+:local(.flip-card-hover:hover .flip-card-inner) {
+    transform: rotateY(180deg);
+}
