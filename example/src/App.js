@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'flipslip'
+import { FlipCardHover } from 'flipslip'
 import 'flipslip/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <FlipCardHover
+    id={"fc0"}
+    text_front={["this is the front text"]}
+    title_back={"John Doe"}
+    text_back={["Architecht", "Programmer"]}
+  />
 }
 
 export default App
